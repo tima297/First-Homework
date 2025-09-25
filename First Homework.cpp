@@ -99,7 +99,7 @@ int main()
     }
     cout << "The amount of vocals:"<< s <<endl;
 
-
+//9
     cout << "Write random number: ";
     cin >> a;
     int sum = 0;
@@ -148,6 +148,7 @@ int main()
 
 
   
+
 
 
 
