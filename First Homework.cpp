@@ -5,14 +5,16 @@ int main()
 {
     int i;
     int s;
-    int a, x, b,c,y, r,k;
+    int  x, b,t,y, r,k;
+    int a=0;
+    char c;
 
     //1
     cout << "Write number in centimeters:\n";
      cin >> a;
      b = a / 100;
-     c = a % 100; 
-     cout << b << " m and "<< c << " cm"<< endl;
+     t = a % 100; 
+     cout << b << " m and "<< t << " cm"<< endl;
 
 
 //2
@@ -99,6 +101,23 @@ int main()
     }
     cout << "The amount of vocals:"<< s <<endl;
 
+      //8 v2 
+  cout << "inter your sentence: ";
+
+  while (cin.get(c) && c != '\n') {
+
+      if (c == 'a' || c == 'A'||
+          c == 'e'  ||c == 'E'||
+          c == 'i'  ||c == 'I'||
+          c == 'o'  ||c == 'O'||
+          c == 'u' || c == 'U') {
+          a++;
+      }
+  }
+
+  cout << "the number of vocals" << a << endl;
+
+
 //9
     cout << "Write random number: ";
     cin >> a;
@@ -148,6 +167,7 @@ int main()
 
 
   
+
 
 
 
